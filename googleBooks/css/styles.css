@@ -1,0 +1,183 @@
+/* Base styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a, p, h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+	font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #000;
+}
+
+nav {
+  width: 100%;
+  background-color: #000;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.img-netflix {
+  width: 100%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 80px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 20px;
+    font-family: fantasy;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#buscador {
+  background-color: #141414;
+  height: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.information {
+  text-align: center;
+  width: 50%;
+}
+
+.information p, h2 {
+  color: white;
+}
+
+.information .rating {
+  color: red;
+}
+
+.information img {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0 20px 0;
+}
+
+input, button {
+  padding: 10px;
+  font-family: 'Lato';
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+ul li img {
+  width: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: grey;
+  padding-top: 10px;
+}
+
+footer .section {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+footer {
+  background-color: #141414;
+  height: 200px;
+}
+
+footer .social ul {
+  list-style: none;
+}
+
+footer .social ul li {
+  padding: 10px;
+}
+
+footer .social ul li a {
+  color: grey;
+  font-size: 1.2em;
+}
+
+#go-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: white;
+  z-index: 99;
+}
+
+#go-top a {
+  font-size: 2em;
+}
+
+.fa-angle-up {
+  padding: 20px;
+  border: 1px solid black;
+}
